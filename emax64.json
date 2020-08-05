@@ -1,0 +1,30 @@
+{
+    "homepage": "https://ntemacs.sourceforge.io",
+    "description": "emax.7z is an environment to make your Emacs experience a little more tolerable on Windows.",
+    "version": "20191229",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/m-parashar/emax64/releases/download/20191229/emax64-bin-snapshot-20191229.7z",
+            "hash": "sha256:68DC4F33C43B0B31C4761F5EAC6E69E561C6ABA0D7F52D08F8A28D9243B36BA2"
+        }
+    },
+    "extract_dir": "emax64",
+    "bin": [
+        "bin\\runemacs.exe",
+        "bin\\emacs.exe",
+        "bin\\emacsclientw.exe",
+        "bin\\emacs-28.0.50.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\runemacs.exe",
+            "EMAX64"
+        ],
+        [
+            "bin\\emacsclientw.exe",
+            "EMAX64 Client",
+            " -c -n -a \"\""
+        ]
+    ]
+}

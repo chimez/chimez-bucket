@@ -1,0 +1,6 @@
+* chimez-bucket
+chimez's scoop bucket
+
+| *APP*  | *Version* |
+|--------+-----------|
+| [[https://github.com/m-parashar/emax64][emax64]] | [[https://github.com/m-parashar/emax64/releases/tag/20191229][emax64-28.0.50-20191229]]  |
