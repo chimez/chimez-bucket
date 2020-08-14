@@ -2,7 +2,7 @@
     "homepage": "https://github.com/daipeihust/im-select",
     "description": "Switch your input method from terminal",
     "version": "20190522",
-    "license": "no",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe",
